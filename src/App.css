@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 .App {
   text-align: center;
 }
@@ -35,4 +38,299 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid{
+  background: #161623;
+  height: 100vh;
+  width: 100vw;
+  
+}
+
+.info{
+  animation: animate 2s 1;
+ top: 20%;
+ left: 30%;
+ position: absolute;
+ cursor: pointer;
+}
+
+.dp{
+  position: absolute;
+right: 0px;
+bottom: 0px;
+}
+.hello{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-style: bold;
+  font-size: 8em;
+  color: rgb(195, 204, 204);
+  position: relative;
+  background: none;
+  border: none;
+  
+}
+
+@keyframes animate {
+  0%{
+    opacity: 0;
+    transform: translateY(30vh);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+.iam{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-style: bold;
+  font-size: 8em;
+  color: rgba(255, 0, 0, 0.61);
+  background: none;
+  border: none;
+}
+
+.jay{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-style: bold;
+  font-size: 8em;
+  color: rgba(255, 0, 0, 0.61);
+  background: none;
+  border: none;
+}
+button.about{
+  display: none;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-style: bold;
+  font-size: 8em;
+  color: rgb(195, 204, 204);
+  background: none;
+  border: none;
+  
+  
+}
+.heading:hover button.hello{
+display: none;
+}
+.heading:hover button.about{
+  display: block;
+  transform: translate(30px);
+  animation: hello 0.5s 1;
+  cursor: pointer;
+}
+@keyframes hello{
+  0%{
+    opacity: 0;
+    transform: translate(0px);
+  }
+  100%{
+    opacity: 1;
+    transform: translate(30px);
+  }
+}
+.works{
+  display: none;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-style: bold;
+  font-size: 8em;
+  color: rgba(255, 0, 0, 0.61);
+  background: none;
+  border: none;
+}
+.projects:hover button.iam{
+  display: none;
+}
+.projects:hover button.works{
+  display: block;
+  transform: translate(30px);
+  animation: hello 0.5s 1;
+  cursor: pointer;
+}
+.cont{
+  display: none;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  font-style: bold;
+  font-size: 8em;
+  color: rgba(255, 0, 0, 0.61);
+  background: none;
+  border: none;
+}
+.contact:hover button.jay{
+  display: none;
+}
+.contact:hover button.cont{
+  display: block;
+  transform: translate(30px);
+  animation: hello 0.5s 1;
+  cursor: pointer;
+}
+.name{
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 2px;
+  color: #61dafb;
+}
+.card-about .content-about{
+  position: relative;
+  width: 1400px;
+  height: 100vh;
+  margin: 30px;
+  margin-top: 15px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+  color: rgb(238, 231, 231);
+  letter-spacing: 1.5px;
+}
+.nice{
+  font-size: 34px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.desc{
+  font-weight:normal;
+  font: size 15px;
+  margin-bottom: 15px;
+}
+#about{
+  font-size: 50px;
+  margin-top: -20px;
+  color: rgb(143, 139, 136);
+}
+.content-about{
+    margin: 0 auto;
+}
+.resume{
+  color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+}
+.resume:hover{
+  color: #020203;
+ background-color: rgb(106, 175, 152);
+}
+.list{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.contact-card{
+  position: relative;
+  width: 1200px;
+  height: 100vh;
+  margin: 30px;
+  margin-top: 15px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+.leaflet-container {
+  position: relative !important;
+ width: 650px;
+  height: 400px;
+  opacity: 100%;
+  display: inline-block;
+  border-radius: 25px;
+}
+.map{
+margin-right: 0;
+position: absolute;
+  left: 25px;
+  padding: 10px;
+  top: 130px;
+  
+}
+.contact-form{
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  width: 600px;
+  top: 130px;
+  color: #717677;
+  
+}
+.submit {
+  margin-top: 15px;
+  
+}
+.icons{
+  gap: 10px;
+  margin-top: 15px;  
+  
+}
+.collab{
+  font-size: 35px;
+}
+.textarea{
+  width: 400px;
+}
+/* FontAwesome Icons styling */
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  border: none;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+  border: none;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  border: none;
+}
+.details{
+  padding-left: 10px;
 }
