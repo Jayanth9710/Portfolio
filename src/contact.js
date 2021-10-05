@@ -10,15 +10,7 @@ function Contact() {
     iconUrl: require("leaflet/dist/images/marker-icon.png").default,
     shadowUrl: require("leaflet/dist/images/marker-shadow.png").default,
   });
-  var myIcon = L.icon({
-    iconUrl: 'my-icon.png',
-    iconSize: [38, 95],
-    iconAnchor: [22, 94],
-    popupAnchor: [-3, -76],
-    shadowUrl: 'my-icon-shadow.png',
-    shadowSize: [68, 95],
-    shadowAnchor: [22, 94]
-});
+ 
 const stamenTonerTiles = 'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png';
   const stamenTonerAttr = '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
 //   const position = [51.505, -0.09];
