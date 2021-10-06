@@ -12,7 +12,7 @@ function Contact() {
     shadowUrl: require("leaflet/dist/images/marker-shadow.png").default,
   });
  
-const stamenTonerTiles = 'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png:Stadia-Auth <process.env.STADIA>';
+const stamenTonerTiles = 'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png?api_key=<process.env.STADIA>';
   const stamenTonerAttr = '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
 //   const position = [51.505, -0.09];
   return (
