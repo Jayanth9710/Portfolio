@@ -50,9 +50,9 @@ const stamenTonerTiles = 'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark
   </div>
   <button type="submit" className="btn btn-primary submit">Send</button>
   <div className="icons">
-  <button href="https://twitter.com/kumarjayanth55"className="fa fa-twitter" target="_blank"/>
-  <button href="https://www.instagram.com/_jay_dot/"className="fa fa-instagram" target="_blank"/>
-  <button href="https://www.youtube.com/channel/UCv0Axkz6tZFx0DPOu7LpNfQ"className="fa fa-youtube" target="_blank"/>
+  <a href="https://twitter.com/kumarjayanth55"className="fa fa-twitter" target="_blank"  rel="noreferrer">.</a>
+  <a href="https://www.instagram.com/_jay_dot/"className="fa fa-instagram" target="_blank" rel="noreferrer">.</a>
+  <a href="https://www.youtube.com/channel/UCv0Axkz6tZFx0DPOu7LpNfQ"className="fa fa-youtube" target="_blank" rel="noreferrer">.</a>
   </div>
 </form>
 </div>
