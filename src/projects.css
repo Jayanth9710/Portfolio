@@ -128,4 +128,9 @@ width: 100%;
   border-left: 1px solid rgba(255, 255, 255, 0.445);
   backdrop-filter: blur(5px);
   }
-  
+  .home-button1{
+    float: right;
+  margin-right: 15px;
+  font-size: 35px !important;
+  margin-top: 45px;
+  }

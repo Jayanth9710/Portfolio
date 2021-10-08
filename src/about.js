@@ -1,18 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import './resume.pdf'
-
+import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 
 function About() {
   return (
     <div className="abt">
-      <Link to="/">
-          <button className="home-button">HOME</button>
-          </Link>
-    
+      
     <div className="card-about">
       <div className="content-about">
         <div className="details">
+        <Link to="/">
+          <ArrowBackIosNewIcon className="home-button">HOME</ArrowBackIosNewIcon>
+          </Link>
+    
           <h1 id="about">About.</h1>
           
           <h2 className="nice">

@@ -6,10 +6,19 @@ import "./webscrape.JPG";
 import "./crudapp.JPG";
 import "./shopping.JPG";
 import "./brew.JPG"
+import { Link } from "react-router-dom";
+import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
+import "./projects.css"
 
 function Projects() {
   return (
+    <div className="projicon">
+      <Link to="/">
+          <ArrowBackIosNewIcon className="home-button1">HOME</ArrowBackIosNewIcon>
+          </Link>
     <div className="container">
+      
+      
       <Tilt options={{ max: 25 }} className="parallax-effect" perspective={500}>
         <div style={{ backgroundColor: "none" }} className="inner-element">
           <div className="card">
@@ -119,6 +128,7 @@ function Projects() {
           </div>
         </div>
       </Tilt>
+    </div>
     </div>
   );
 }

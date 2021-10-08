@@ -4,6 +4,8 @@ import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import 'leaflet/dist/leaflet.css';
 import L from "leaflet";
 import  emailjs from 'emailjs-com'
+import { Link } from "react-router-dom";
+import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 
 require('dotenv').config()
 
@@ -32,6 +34,11 @@ const stamenTonerTiles = 'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark
 //   const position = [51.505, -0.09];
   return (
       <>
+      
+        <div className="content">
+      
+          
+          
       <div className="map">
     <MapContainer center={[10.805946, 78.695714]} zoom={12} scrollWheelZoom={true} >
   <TileLayer
@@ -44,8 +51,12 @@ const stamenTonerTiles = 'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark
     </Popup>
   </Marker>
 </MapContainer>
+
 </div>
 <div className="contact-form">
+<Link to="/">
+          <ArrowBackIosNewIcon className="home-button2">HOME</ArrowBackIosNewIcon>
+          </Link>
   <h4 className="collab">Have an idea... Think it would be great for a Collab!? Ping me!</h4>
 <form onSubmit={handleSubmit}>
 <div className="form-group col-md-6">
@@ -70,6 +81,9 @@ const stamenTonerTiles = 'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark
   <a href="https://www.youtube.com/channel/UCv0Axkz6tZFx0DPOu7LpNfQ"className="fa fa-youtube" target="_blank" rel="noreferrer">.</a>
   </div>
 </form>
+
+</div>
+
 </div>
 </>
   
