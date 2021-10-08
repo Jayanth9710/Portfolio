@@ -1,12 +1,20 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './resume.pdf'
+
 
 function About() {
   return (
+    <div className="abt">
+      <Link to="/">
+          <button className="home-button">HOME</button>
+          </Link>
+    
     <div className="card-about">
       <div className="content-about">
         <div className="details">
           <h1 id="about">About.</h1>
+          
           <h2 className="nice">
             Hi I am <span className="name">Jayanth Kumar.</span>
             <br /> Nice to meet you!
@@ -44,6 +52,7 @@ function About() {
           <a href="resume.pdf" download className="resume">Resume</a>
         </div>
       </div>
+    </div>
     </div>
   );
 }
