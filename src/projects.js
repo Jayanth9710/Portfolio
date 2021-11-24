@@ -36,7 +36,7 @@ function Projects() {
                     checking other's pins to explore the world of different
                     cuisines.
                   </p>
-                  <a href="https://foodiesplore-map-by-jay.netlify.app/">
+                  <a href="https://foodiesplore-map-by-jay.netlify.app/" target="_blank" rel="noreferrer">
                     View Project.
                   </a>
                 </div>
@@ -62,7 +62,7 @@ function Projects() {
                     This website evidents web scraping by scraping the contents
                     from web pages like Amazon and Flipkart.
                   </p>
-                  <a href="https://webscrape-hackathon-2-jay.netlify.app/">
+                  <a href="https://webscrape-hackathon-2-jay.netlify.app/" target="_blank" rel="noreferrer">
                     View project.
                   </a>
                 </div>
@@ -81,7 +81,7 @@ function Projects() {
                 <h2>CRUD Application</h2>
                 <div className="card-footer text-center">
                   <p>A website demonstrating CRUD operations using React.</p>
-                  <a href="https://own-ui-crud-jay.netlify.app/">
+                  <a href="https://own-ui-crud-jay.netlify.app/" target="_blank" rel="noreferrer">
                     View Project.
                   </a>
                 </div>
@@ -100,7 +100,7 @@ function Projects() {
                 <h2>e-Commerce website</h2>
                 <div className="card-footer text-center">
                   <p>An e-Commerce website using React.</p>
-                  <a href="https://react-cartpagetask-jay.netlify.app/">
+                  <a href="https://react-cartpagetask-jay.netlify.app/" target="_blank" rel="noreferrer">
                     View Project.
                   </a>
                 </div>
@@ -119,7 +119,7 @@ function Projects() {
                 <h2>Breweries in USA</h2>
                 <div className="card-footer text-center">
                   <p>A website for searching breweries across the USA, using API.</p>
-                  <a href="https://breweries-in-usa-jay.netlify.app/">
+                  <a href="https://breweries-in-usa-jay.netlify.app/" target="_blank" rel="noreferrer">
                     View Project.
                   </a>
                 </div>

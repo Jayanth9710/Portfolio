@@ -65,7 +65,7 @@ body{
     padding: 20px;
     text-align: center;
     transform: translateY(30px);
-    opacity: 0;
+    opacity: 0.5;
     transition: 0.5s;
     position: absolute;
   }
