@@ -5,7 +5,7 @@ import "./display.png";
 
 function Home() {
     return (
-        <div className="container-fluid">
+        <div className="container-fluid home">
       <div className="info">
           <Link to="/about" style={{ textDecoration: 'none' }} >
         <div className="heading">
