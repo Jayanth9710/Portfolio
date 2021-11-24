@@ -24,7 +24,7 @@ function About() {
             I graduated as an Civil engineer, which makes me have profound
             interests in wide range of disciplines <br />
             other than the field I graduated.Apart from engineering knowledge, I have substantial<br/> passion for
-            Geography,GIS.
+            Geography,GIS.In Recent days as learning anything has become easily accessible.I decided to learn Web development.Initially I thought it would be best and easy to learn Frontend development alone, but, some kind and great mentors proved it wrong and I got the opportunity to learn Fullstack with Mongo,Express , ReactJS and NodeJS.
           </h4>
           
           <div className="interests">
