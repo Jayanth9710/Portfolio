@@ -71,25 +71,7 @@ function Projects() {
           </div>
         </div>
       </Tilt>
-      <Tilt options={{ max: 25 }} className="parallax-effect" perspective={500}>
-        <div style={{ backgroundColor: "none" }} className="inner-element">
-          <div className="card">
-            
-            <div className="content">
-              <div className="card-container">
-              <img src="crudapp.JPG" alt="crud" className="card-img"></img>
-                <h2>CRUD Application</h2>
-                <div className="card-footer text-center">
-                  <p>A website demonstrating CRUD operations using React.</p>
-                  <a href="https://own-ui-crud-jay.netlify.app/" target="_blank" rel="noreferrer">
-                    View Project.
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </Tilt>
+      
       <Tilt options={{ max: 25 }} className="parallax-effect" perspective={500}>
         <div style={{ backgroundColor: "none" }} className="inner-element">
           <div className="card">
@@ -99,8 +81,8 @@ function Projects() {
               <img src="shopping.JPG" alt="shopping" className="card-img"></img>
                 <h2>e-Commerce website</h2>
                 <div className="card-footer text-center">
-                  <p>An e-Commerce website using React.</p>
-                  <a href="https://react-cartpagetask-jay.netlify.app/" target="_blank" rel="noreferrer">
+                  <p>An e-Commerce website using MERN stack with Redux and Payment Integration.</p>
+                  <a href="https://mern-stack-e-commerce.netlify.app/" target="_blank" rel="noreferrer">
                     View Project.
                   </a>
                 </div>
@@ -109,17 +91,18 @@ function Projects() {
           </div>
         </div>
       </Tilt>
+
       <Tilt options={{ max: 25 }} className="parallax-effect" perspective={500}>
         <div style={{ backgroundColor: "none" }} className="inner-element">
           <div className="card">
             
             <div className="content">
               <div className="card-container">
-              <img src="brew.JPG" alt="shopping" className="card-img"></img>
-                <h2>Breweries in USA</h2>
+              <img src="airbnb.png" alt="shopping" className="card-img"></img>
+                <h2>Airbnb Clone</h2>
                 <div className="card-footer text-center">
-                  <p>A website for searching breweries across the USA, using API.</p>
-                  <a href="https://breweries-in-usa-jay.netlify.app/" target="_blank" rel="noreferrer">
+                  <p>This project is an attempt of mine to clone the Airbnb website.</p>
+                  <a href="https://capstoneproject-airbnbclone-by-jay.netlify.app/" target="_blank" rel="noreferrer">
                     View Project.
                   </a>
                 </div>
@@ -128,6 +111,7 @@ function Projects() {
           </div>
         </div>
       </Tilt>
+      
     </div>
     </div>
   );
