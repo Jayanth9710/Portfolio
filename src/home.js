@@ -1,9 +1,10 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import "./App.css";
 import "./display.png";
 
 function Home() {
+  const[showTip,setShowTip] = useState(true);
     return (
         <div className="container-fluid home">
       <div className="info">
