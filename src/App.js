@@ -12,10 +12,10 @@ function App() {
        <div id="content-wrapper" className="d-flex flex-column">
          <div id="content">
            <Switch>
-             <Route path="/" component={HomePage} exact={true}/>
-             <Route path="/projects" component={Projects} exact={true}/>
-             <Route path="/about" component={About} exact={true}/>
-             <Route path="/contact" component={Contact} exact={true}/>
+             <Route key={1} path="/" component={HomePage} exact={true}/>
+             <Route key={2} path="/projects" component={Projects} exact={true}/>
+             <Route key={3} path="/about" component={About} exact={true}/>
+             <Route key={4} path="/contact" component={Contact} exact={true}/>
            </Switch>
          </div>
        </div>
