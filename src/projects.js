@@ -45,6 +45,47 @@ function Projects() {
           </div>
         </div>
       </Tilt>
+
+      <Tilt options={{ max: 25 }} className="parallax-effect" perspective={500}>
+        <div style={{ backgroundColor: "none" }} className="inner-element">
+          <div className="card">
+            
+            <div className="content">
+              <div className="card-container">
+              <img src="snap.png" alt="shopping" className="card-img"></img>
+                <h2>Blog Website</h2>
+                <div className="card-footer text-center">
+                  <p>A fullstack Blog website created with help of MERN stack.</p>
+                  <a href="https://mern-blog-app-jay.netlify.app/" target="_blank" rel="noreferrer">
+                    View Project.
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Tilt>
+
+      <Tilt options={{ max: 25 }} className="parallax-effect" perspective={500}>
+        <div style={{ backgroundColor: "none" }} className="inner-element">
+          <div className="card">
+            
+            <div className="content">
+              <div className="card-container">
+              <img src="shopping.JPG" alt="shopping" className="card-img"></img>
+                <h2>e-Commerce website</h2>
+                <div className="card-footer text-center">
+                  <p>An e-Commerce website using MERN stack with Redux and Payment Integration.</p>
+                  <a href="https://mern-stack-e-commerce.netlify.app/" target="_blank" rel="noreferrer">
+                    View Project.
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </Tilt>
+
       <Tilt options={{ max: 25 }} className="parallax-effect" perspective={500}>
         <div style={{ backgroundColor: "none" }} className="inner-element">
           <div className="card">
@@ -72,25 +113,7 @@ function Projects() {
         </div>
       </Tilt>
       
-      <Tilt options={{ max: 25 }} className="parallax-effect" perspective={500}>
-        <div style={{ backgroundColor: "none" }} className="inner-element">
-          <div className="card">
-            
-            <div className="content">
-              <div className="card-container">
-              <img src="shopping.JPG" alt="shopping" className="card-img"></img>
-                <h2>e-Commerce website</h2>
-                <div className="card-footer text-center">
-                  <p>An e-Commerce website using MERN stack with Redux and Payment Integration.</p>
-                  <a href="https://mern-stack-e-commerce.netlify.app/" target="_blank" rel="noreferrer">
-                    View Project.
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </Tilt>
+      
 
       <Tilt options={{ max: 25 }} className="parallax-effect" perspective={500}>
         <div style={{ backgroundColor: "none" }} className="inner-element">
@@ -111,6 +134,8 @@ function Projects() {
           </div>
         </div>
       </Tilt>
+
+      
       
     </div>
     </div>
