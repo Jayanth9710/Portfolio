@@ -50,7 +50,7 @@ function About() {
             </ul>
           </div>
           To know more about my Education,skills,experiences and much more go through my Resume below.<br/>
-          <a href="resume.pdf" download className="resume">Resume</a>
+          <a href="https://drive.google.com/file/d/1JSi3eiyZjBko-ZLJCiINCbOa7e0D7TS1/view?usp=sharing" target="_blank" rel="noreferrer" className="resume">Resume</a>
         </div>
       </div>
     </div>
