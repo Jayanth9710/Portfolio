@@ -55,6 +55,8 @@ function Home() {
       </Modal>
       </div>
         <div className="container-fluid home">
+          <Link to='/contact' style={{textDecoration:'none'}}>
+          <button className="contact-button">Contact</button></Link>
       <div className="info">
           <Link to="/about" style={{ textDecoration: 'none' }} >
         <div className="heading">
@@ -68,10 +70,10 @@ function Home() {
           <button className="works">Projects.</button>
         </div>
         </Link>
-        <Link to="/contact" style={{ textDecoration: 'none' }}>
+        <Link to="/skills" style={{ textDecoration: 'none' }}>
         <div className="contact">
           <button className="jay">Jay</button>
-          <button className="cont">Contact.</button>
+          <button className="cont">Skills</button>
         </div>
         </Link>
       </div>

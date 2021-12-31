@@ -1,0 +1,26 @@
+
+.skills__page{
+    color: cadetblue;
+    font-size: 43px;
+    width: 1150px;
+    margin-right: 50px;
+}
+.Title{
+    margin-right: 200px !important;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.title__icon{
+    margin-right: 5px !important;
+}
+  .skills__box{
+    width: 1300px;
+  }
+  .home-button1{
+    float: right;
+  margin-right: 15px;
+  font-size: 35px !important;
+  margin-top: -100px;
+  }

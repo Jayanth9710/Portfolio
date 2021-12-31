@@ -15,7 +15,7 @@ function Projects() {
   return (
     <div className="projicon">
       <Link to="/">
-          <ArrowBackIosNewIcon className="home-button1">HOME</ArrowBackIosNewIcon>
+          <ArrowBackIosNewIcon className="home-button">HOME</ArrowBackIosNewIcon>
           </Link>
     <div className="container">
       
@@ -188,13 +188,13 @@ function Projects() {
                 </div>
                 <div className="code_icons">
                   <div className="backend">
-                <a href="https://github.com/Jayanth9710/capstoneProject-Frontend" target='_blank' className="code" rel="noreferrer">
+                <a href="https://github.com/Jayanth9710/capstoneProject-Backend" target='_blank' className="code" rel="noreferrer">
                   <GitHubIcon style={{fontSize:"35"}}/>
                   </a>
                   Backend
                   </div>
                   <div className="frontend">
-                    <a href="https://github.com/Jayanth9710/capstoneProject-Backend" target="_blank" className="code" rel="noreferrer">
+                    <a href="https://github.com/Jayanth9710/capstoneProject-Frontend" target="_blank" className="code" rel="noreferrer">
                     <GitHubIcon style={{fontSize:"35"}}/>
                     </a>
                     Frontend

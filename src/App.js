@@ -4,6 +4,7 @@ import Projects from "./projects"
 import About from "./about"
 import Contact from './contact'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Skills from "./Skills";
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
              <Route key={2} path="/projects" component={Projects} exact={true}/>
              <Route key={3} path="/about" component={About} exact={true}/>
              <Route key={4} path="/contact" component={Contact} exact={true}/>
+             <Route key={4} path="/skills" component={Skills} exact={true}/>
            </Switch>
          </div>
        </div>
