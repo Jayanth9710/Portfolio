@@ -20,7 +20,7 @@ function Projects() {
     <div className="container">
       
       
-      <Tilt options={{ max: 20 }} className="parallax-effect" perspective={320}>
+      {/* <Tilt options={{ max: 20 }} className="parallax-effect" perspective={320}>
         <div style={{ backgroundColor: "none" }} className="inner-element">
           <div className="card">
             <div className="content">
@@ -59,7 +59,7 @@ function Projects() {
             </div>
           </div>
         </div>
-      </Tilt>
+      </Tilt> */}
 
       <Tilt options={{ max: 25 }} className="parallax-effect" perspective={350}>
         <div style={{ backgroundColor: "none" }} className="inner-element">
