@@ -42,7 +42,7 @@ function Home() {
       localStorage.setItem('pop',1);
     }
     if(!showTip) return null;
-  },[])
+  },[showTip])
     return ( <>
       <div className="modal">
       <Button onClick={handleOpen}>Tip</Button>
