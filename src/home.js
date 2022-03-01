@@ -26,13 +26,22 @@ function Home() {
     
   };
   const[showTip,setShowTip] = useState(false);
-  const handleOpen = () => setShowTip(true);
+  const handleOpen = () => {
+    setShowTip(true)
+    localStorage.setItem('show',true)
+  }
+  ;
   const handleClose = () => setShowTip(false);
   const theme = useTheme();
   const fullScreen = useMediaQuery(theme.breakpoints.down('md'));
 
   useEffect(()=>{
-   handleOpen();
+    const pop = localStorage.getItem('pop');
+    if(!pop) {
+      handleOpen();
+      localStorage.setItem('pop',1);
+    }
+    if(!showTip) return null;
   },[])
     return ( <>
       <div className="modal">
