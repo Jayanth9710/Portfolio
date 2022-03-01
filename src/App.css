@@ -312,6 +312,10 @@ position: absolute;
   margin-top: 15px;  
   
 }
+
+.icons a {
+  margin-left: 2%;
+}
 .collab{
   font-size: 35px;
 }

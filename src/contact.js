@@ -6,6 +6,8 @@ import L from "leaflet";
 import  emailjs from 'emailjs-com'
 import { Link } from "react-router-dom";
 import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 require('dotenv').config()
 
@@ -76,8 +78,8 @@ const stamenTonerTiles = 'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark
   </div>
   <button type="submit" className="btn btn-primary submit">Send</button>
   <div className="icons">
-  <a href="https://www.linkedin.com/in/jayanth-kumar-1997j/"className="fa fa-linkedin" target="_blank"  rel="noreferrer">.</a>
-  <a href="https://github.com/Jayanth9710/"className="fa fa-github" target="_blank" rel="noreferrer">.</a>
+  <a href="https://www.linkedin.com/in/jayanth-kumar-1997j/" target="_blank"  rel="noreferrer"><LinkedInIcon/></a>
+  <a href="https://github.com/Jayanth9710/" target="_blank" rel="noreferrer"><GitHubIcon/></a>
   </div>
 </form>
 
