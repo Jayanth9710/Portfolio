@@ -162,10 +162,21 @@ width: 100%;
       top: 0;
       left: 0;
       height: 140%;
-      width: 115%;
+      width: 100%;
       background:linear-gradient(#f00,#f0f);
       clip-path: circle(30% at right 60%);
     }
 
+    .container{
+      position: relative;
+      display: grid;
+     grid-template-columns: 1fr  ;
+      max-width: 480px;
+      
+      z-index: 1;
+      margin-top: 20px;
+    }
+
   }
+
 

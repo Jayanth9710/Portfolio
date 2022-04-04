@@ -9,11 +9,11 @@ function AboutMe() {
       <div className="row AboutRow" >
         <div className="col-md-1 col-lg-1 col-xl-1"></div>
         <div className="col-md-10 col-lg-10 col-xl-10 col-12 aboutCard">
-          <div className="row">
-            <div className="col-9">
+          <div className="row headingRow">
+            <div className="col-md-9 col-lg-9 col-xl-9 col-9">
               <h1 id="about">About.</h1>
             </div>
-            <div className="col-3">
+            <div className="col-md-3 col-lg-3 col-xl-3 col-3">
               <Link to="/">
                 <ArrowBackIosNewIcon className="home-button">
                   HOME
@@ -22,7 +22,7 @@ function AboutMe() {
             </div>
           </div>
           <div className="row">
-              <div className="col-5">
+              <div className="col-12 col-md-5 col-lg-5 col-xl-5 ">
               <h2 className="nice">
             Hi I am <span className="name">Jayanth Kumar.</span>
             <br /> Nice to meet you!
