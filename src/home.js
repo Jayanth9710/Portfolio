@@ -64,9 +64,12 @@ function Home() {
       </Modal>
       </div>
         <div className="container-fluid home">
+          <div className="row">
           <Link to='/contact' style={{textDecoration:'none'}}>
           <button className="contact-button">Contact</button></Link>
-      <div className="info">
+          </div>
+          <div className="row">
+      <div className="col-md-9 col-lg-9 col-xl-9 col-12 info">
           <Link to="/about" style={{ textDecoration: 'none' }} >
         <div className="heading">
           <button className="hello">Hello.</button>
@@ -86,12 +89,15 @@ function Home() {
         </div>
         </Link>
       </div>
+      <div className="col-md-3 col-lg-3 col-xl-3 col-12">
       <img
         src="./display.png"
         alt="display-pic"
         className="dp"
         align="right"
       ></img>
+      </div>
+      </div>
     </div>
     </>
     )

@@ -61,7 +61,7 @@ overflow-x: hidden !important;
 .info{
   animation: animate 2s 1;
  top: 20%;
- left: 30%;
+ left: 25%;
  position: absolute;
  cursor: pointer;
  overflow-x: hidden !important;
@@ -385,20 +385,58 @@ position: absolute;
 }
 /* Styling the content to be responsive using media query. */
 
-@media screen and (max-width: 360px)
-{ .dp{
-    height: 300px;
-    right: -30px;
+
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .dp{
+      position: absolute;
+      width: 50%;
+    right: 0px;
+    bottom: 0px;
+    }
+  /* .info{
     position: absolute;
-}
-.info{
-  position: absolute;
-  font-size: 11px;
-  left: 15px;
-  bottom: 0px;
-}
-.content-about .details {
-  max-width: 100%;
-    margin: auto;
-}
+    font-size: 11px;
+    left: 15px;
+    bottom: 0px;
+  } */
+  /* .content-about .details {
+    max-width: 100%;
+      margin: auto;
+  } */
+
+
+  .card-about .content-about{
+    position: relative;
+    width: 1400px;
+    height: 1000px;
+    margin: 0px;
+    margin-top: 15px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+    color: rgb(238, 231, 231);
+    letter-spacing: 0.5px;
+  }
+
+  #about{
+    font-size: 30px;
+    margin-top: 343px;
+    color: rgb(143, 139, 136);
+  }
+
+  .container-fluid{
+    height: 100%;
+  }
 }

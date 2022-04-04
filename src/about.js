@@ -5,11 +5,11 @@ import ArrowBackIosNewIcon from '@mui/icons-material/ArrowBackIosNew';
 
 function About() {
   return (
-    <div className="abt">
+    <div className="container-fluid abt">
       
-    <div className="card-about">
-      <div className="content-about">
-        <div className="details">
+    <div className=" row card-about">
+      <div className="col-12 content-about">
+        <div className=" details">
         <Link to="/">
           <ArrowBackIosNewIcon className="home-button">HOME</ArrowBackIosNewIcon>
           </Link>
