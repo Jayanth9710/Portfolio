@@ -3,11 +3,12 @@
   z-index: 9999;
     color: cadetblue;
     font-size: 43px;
+    margin-top: 5%;
     /* width: 1150px; */
     /* margin-right: 50px; */
 }
 .Title{
-    margin-right: 200px !important;
+    margin-right: 200px ;
     display: flex;
     justify-content: center;
     margin-bottom: 25px;
@@ -19,12 +20,12 @@
   /* .skills__box{
     width: 1300px;
   } */
-  .home-button1{
+  /* .home-button1{
     float: right;
   margin-right: 15px;
   font-size: 35px !important;
   margin-top: -100px;
-  }
+  } */
 
 
   @media only screen 
@@ -35,7 +36,17 @@
       z-index: 9999;
       color: cadetblue;
       font-size: 20px;
+      margin-top: 20%;
+      margin-left: 4%;
       /* width: 1150px; */
       /* margin-right: 50px; */
   }
+
+
+  .Title{
+    margin-right: unset;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
   }

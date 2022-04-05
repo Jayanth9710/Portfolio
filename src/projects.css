@@ -40,7 +40,7 @@ body{
     position: relative;
     display: grid;
    grid-template-columns: 1fr 1fr 1fr ;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     
     z-index: 1;
     margin-top: 20px;
@@ -172,7 +172,7 @@ width: 100%;
       position: relative;
       display: grid;
      grid-template-columns: 1fr  ;
-      max-width: 480px;
+      max-width: 430px;
       
       z-index: 1;
       margin-top: 20px;

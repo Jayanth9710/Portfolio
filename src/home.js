@@ -26,6 +26,7 @@ function Home() {
     
   };
   const[showTip,setShowTip] = useState(false);
+  const[showMobileView,setShowMobileView] = useState(false);
   const handleOpen = () => {
     setShowTip(true)
     localStorage.setItem('show',true)
@@ -35,14 +36,22 @@ function Home() {
   const theme = useTheme();
   const fullScreen = useMediaQuery(theme.breakpoints.down('md'));
 
+  const handleMobileView = () => {
+    setShowMobileView(!showMobileView)
+    console.log(showMobileView)
+  }
+
   useEffect(()=>{
     const pop = localStorage.getItem('pop');
     if(!pop) {
       handleOpen();
       localStorage.setItem('pop',1);
+     
     }
     if(!showTip) return null;
-  },[showTip])
+
+    
+  },[showTip,showMobileView])
     return ( <>
       <div className="modal">
       <Button onClick={handleOpen}>Tip</Button>
@@ -65,27 +74,37 @@ function Home() {
       </div>
         <div className="container-fluid home">
           <div className="row">
-          <Link to='/contact' style={{textDecoration:'none'}}>
+            <div className="col-8">
+            <Link to='/contact' style={{textDecoration:'none'}}>
           <button className="contact-button">Contact</button></Link>
+            </div>
+            <div className="col-4 showMobileTip"></div>
+         <p className="mobileTip" onClick={handleMobileView}>Tap here to show title</p>
           </div>
           <div className="row">
       <div className="col-md-9 col-lg-9 col-xl-9 col-12 info">
           <Link to="/about" style={{ textDecoration: 'none' }} >
         <div className="heading">
-          <button className="hello">Hello.</button>
-          <button className="about">About.</button>
+          <button className={showMobileView ? "hello" :"hello nomobileview"}>Hello.</button>
+          {/* <button className="hello nomobleview">Hello.</button> */}
+          <button className={showMobileView ? "about" :" about mobileview"}>About.</button>
+          {/* <button className="about mobileview">About.</button> */}
         </div>
         </Link>
         <Link to="/projects" style={{ textDecoration: 'none' }}>
         <div className="projects">
-          <button className="iam">I am</button>
-          <button className="works">Projects.</button>
+        <button className={showMobileView ? "iam" :" iam nomobileview"}>I am.</button>
+          {/* <button className="iam nomobleview">I am</button> */}
+          <button className={showMobileView ? "works" :"works mobileview"}>Projects.</button>
+          {/* <button className="works mobileview">Projects.</button> */}
         </div>
         </Link>
         <Link to="/skills" style={{ textDecoration: 'none' }}>
         <div className="contact">
-          <button className="jay">Jay</button>
-          <button className="cont">Skills</button>
+          <button className={showMobileView ? "jay" :" jay nomobileview"}>Jay.</button>
+          {/* <button className="jay nomobleview">Jay</button> */}
+          <button className={showMobileView ? "cont" :"cont mobileview"}>Skills</button>
+          {/* <button className="cont mobileview">Skills</button> */}
         </div>
         </Link>
       </div>

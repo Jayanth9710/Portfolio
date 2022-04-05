@@ -4,14 +4,15 @@ import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 function Skills() {
   return (
     <div className="container-fluid skills__page">
-      <div className="row">
+      {/* <div className="row">
         <Link to="/">
           <ArrowBackIosNewIcon className="home-button1">
             HOME
           </ArrowBackIosNewIcon>
         </Link>
-      </div>
+      </div> */}
       <div className="row">
+        <div className="col-9">
         <h3 className="Title">
           {" "}
           <span className="title__icon">
@@ -19,6 +20,15 @@ function Skills() {
           </span>
           Skills &amp; Technolgies{" "}
         </h3>
+        </div>
+        <div className="col-3">
+        <Link to="/">
+          <ArrowBackIosNewIcon className="home-button1">
+            HOME
+          </ArrowBackIosNewIcon>
+        </Link>
+        </div>
+        
       </div>
       <div className="row skills__box">
         <div className="col-md-1 col-lg-1 col-xl-1"></div>

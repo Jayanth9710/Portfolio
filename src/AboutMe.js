@@ -63,7 +63,7 @@ function AboutMe() {
             </div>
           </div>
           <div className="row">
-              <div className="col-12">
+              <div className="col-12 resumeTitle">
                   <h4> To know more about my Education,skills,experiences and much more go through my Resume below.</h4>
          <br/>
          </div>
