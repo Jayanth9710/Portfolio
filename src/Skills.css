@@ -1,9 +1,10 @@
 
 .skills__page{
+  z-index: 9999;
     color: cadetblue;
     font-size: 43px;
-    width: 1150px;
-    margin-right: 50px;
+    /* width: 1150px; */
+    /* margin-right: 50px; */
 }
 .Title{
     margin-right: 200px !important;
@@ -15,12 +16,26 @@
 .title__icon{
     margin-right: 5px !important;
 }
-  .skills__box{
+  /* .skills__box{
     width: 1300px;
-  }
+  } */
   .home-button1{
     float: right;
   margin-right: 15px;
   font-size: 35px !important;
   margin-top: -100px;
+  }
+
+
+  @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .skills__page{
+      z-index: 9999;
+      color: cadetblue;
+      font-size: 20px;
+      /* width: 1150px; */
+      /* margin-right: 50px; */
+  }
   }
