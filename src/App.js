@@ -1,7 +1,7 @@
 import "./App.css";
 import HomePage from "./home";
 import Projects from "./projects"
-import About from "./about"
+// import About from "./about"
 import Contact from './contact'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Skills from "./Skills";
