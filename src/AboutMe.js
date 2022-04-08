@@ -68,7 +68,7 @@ function AboutMe() {
          <br/>
          </div>
          <div className="col-4">
-          <a href="https://drive.google.com/file/d/1KxjGMPpWOsvn46L3eliYcHK0Ckr087lT/view?usp=sharing" target="_blank" rel="noreferrer" className="resume">Resume</a>
+          <a href="https://drive.google.com/file/d/1p4016B539PNfOv3a6yKJoAp342j6ASl2/view?usp=sharing" target="_blank" rel="noreferrer" className="resume">Resume</a>
           
           </div>
         </div>
