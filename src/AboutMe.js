@@ -31,15 +31,15 @@ function AboutMe() {
           </div>
           <div className="row">
               <div className="col-12">
-                  <p> I graduated as an Civil engineer, which makes me have profound
+                  <p> I graduated as a Civil engineer, which gave me have profound
             interests in wide range of disciplines <br />
-            other than the field I graduated.Apart from engineering knowledge, I have substantial<br/> passion for
-            Geography,GIS.In Recent days as learning anything has become easily accessible.I decided to learn Web development.Initially I thought it would be best and easy to learn Frontend development alone, but, some kind and great mentors proved it wrong and I got the opportunity to learn Fullstack with Mongo,Express , ReactJS and NodeJS.</p>
+            other than the field I graduated. Apart from engineering knowledge, I have a substantial<br/> passion for
+            Geography, GIS. In recent days learning anything has become easily accessible. I decided to learn Web development. Initially, I thought it would be best and easy to learn Frontend development alone, but, some kind and great mentors proved it wrong and I got the opportunity to learn Fullstack with Mongo, Express, ReactJS, and NodeJS.</p>
               </div>
           </div>
           <div className="row">
               <div className="col-12">
-              <h4>My Multi-Displinary interests and Experiences are :</h4>
+              <h4>My Multi-Disciplinary interests and Experiences are:</h4>
               <ul className="list">
               <li>GIS [Geographical Information System]</li>
               <li>MERN stack Development</li>
@@ -50,7 +50,7 @@ function AboutMe() {
           </div>
           <div className="row">
               <div className="col-12">
-              <h4>I believe in Retraining which makes me to accquire knowledeg about
+              <h4>I believe in Retraining which makes me to acquire knowledge about
             many topics.</h4>
             </div>
             <div className="col-12">
@@ -58,13 +58,13 @@ function AboutMe() {
             <ul className="list">
               <li>Listening music</li>
               <li>Football</li>
-              <li>Reading about new techonoligies/gadgets</li>
+              <li>Reading about new technologies/gadgets</li>
             </ul>
             </div>
           </div>
           <div className="row">
               <div className="col-12 resumeTitle">
-                  <h4> To know more about my Education,skills,experiences and much more go through my Resume below.</h4>
+                  <h4> To know more about my Education, skills, experiences, and much more go through my Resume below.</h4>
          <br/>
          </div>
          <div className="col-4">
